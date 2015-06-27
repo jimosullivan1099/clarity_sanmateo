@@ -21,8 +21,8 @@
   persist_for: 60 minutes
   label: 'HMIS Performance'
   conditionally_filter: 
-    enrollments.start_date: 'before today'
-    enrollments.end_date_or_today_date: 'after 3 months ago'
+#    enrollments.start_date: 'before today'
+#    enrollments.end_date_or_today_date: 'after 3 months ago'
   access_filter_fields: [agencies.id]
 
   joins:
